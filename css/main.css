@@ -1,0 +1,294 @@
+/***** BASE STYLES *****/
+
+
+body {
+    font-family: 'Assistant', sans-serif;
+    color: #2b2b2b;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/*****GRID*****/
+.full-width {
+    width: 100%;
+    height: 100%;
+    clear: left;
+    margin: 0 auto;
+}
+.half-width {
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.one-third-width {
+    width: 30%;
+    float: left;
+}
+.third-height {
+    height: 20rem;
+    width: 100%;
+    margin: 10% 0;
+}
+/*****HEADER*****/
+
+header {
+    height: 45rem;
+    overflow: hidden;
+}
+/***navigation-bar***/
+header .navigation-bar {
+    width: 100%;
+    height: auto;
+    background: #c0c0c00f;
+    position: fixed;
+    box-shadow: 0.90rem 0.20rem 0.50rem #c0c0c07a;
+    z-index: 1;
+}
+header h1 {
+    font-family: 'limelight', sans-serif;
+    padding: 1% 0 0 2%;
+    margin: 0;
+    color: #3399cc;
+    letter-spacing: -0.20rem;
+    font-size: 2rem;
+    text-shadow: 0.10rem 0 #c0c0c0ad;
+}
+header h2 {
+    font-family: 'Assistant', sans-serif;
+    margin-top: -0.5%;
+    padding-left: 3%;
+    color: #3399cc;
+    font-size: 1.15rem;
+    font-weight: 400;
+    letter-spacing: -0.05rem;
+}
+nav {
+    position: absolute;
+    left: 65%;
+    bottom: 10%;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: #68696b;
+    font-family: 'Assistant', sans-serif;
+    letter-spacing: -0.10rem;
+    font-weight: 700;
+}
+/***end-of-navigation-bar***/
+#background-image {
+    position: absolute;
+    top: 5%;
+    z-index: -1;
+    left: 15%;
+}
+header p {
+    font-family: 'Arizonia', cursive;
+    margin: 0 auto;
+    color: #2b2b2b;
+    font-size: 2.5rem;
+    font-weight: 900;
+    position: relative;
+    left: 5%;
+    top: 60%;
+    text-shadow: 0.15rem 0 #c0c0c0ad;
+}
+
+/*****PORTIFOLIO*****/
+
+#portifolio h2 {
+    font-family:  mono45-headline, monospace;
+    font-size: 2rem;
+    color: #3399cc;
+    letter-spacing: -0.05rem;
+    padding-top: 2%;
+    text-align: center;
+}
+#portifolio .half-width a img {
+    width: 90%;
+    box-shadow: 0.25rem 0.35rem 0.75rem 0.35rem #7f808299;
+}
+#portifolio .third-height.description {
+    width: 90%;
+    padding-top: 1%;
+}
+#portifolio h3 {
+     font-family: mono45-headline, monospace;
+     padding-top: 2%; 
+     margin: 0 auto;
+}
+#portifolio h5 {
+     font-family: 'Assistant', sans-serif;
+     font-weight: 200;
+     font-size: 1rem;
+     padding-bottom: 3%;
+     margin: 0 auto;
+     letter-spacing: -0.5px;
+}
+#portifolio p {
+     font-family: 'Assistant', sans-serif;
+     font-size: 1rem;
+     margin: 0 auto;
+}
+#portifolio .half-width.left {
+    margin: 0 auto;
+    text-align: right;
+    padding: 1% 2% 5% 9%;
+}
+#portifolio .half-width.right {
+    text-align: left;
+    margin: 0 auto;
+    padding: 1% 5% 5% 2%;
+}
+
+/*****ABOUT*****/
+#about {
+   height: 35rem;
+   clear: both;
+   border: 1px solid white;
+}
+#about .full-width {
+    background: #3399ccb0;
+    width: 100%;
+    height: 85%;
+    margin: 6% auto;
+    border-top: 0.05rem solid black;
+    border-bottom: 0.05rem solid black;
+    overflow: auto;
+}
+#about .one-third-width {
+    width: 29%;
+    height: 70%;
+    margin: 0 auto;
+    padding-left: 4%;
+}
+#about h2 {
+    text-align: center;
+    font-family: mono45-headline, monospace;
+    font-size: 2rem;
+    letter-spacing: -0.05rem;
+    padding: 1% 0;
+}
+#about img {
+    width: 95%;
+    border: 0.5rem solid white;
+    border-radius: 2%;
+}
+#about h5 {
+    font-family: mono45-headline, monospace;
+    text-align: left;
+    margin: 0 1rem 0.3rem 1rem;
+    padding-bottom: 1%;
+    font-size: 1.12rem;
+    font-weight: 100;
+}
+#about p {
+     font-family: 'Assistant', sans-serif;
+     font-size: 1rem;
+     margin: 0 1% 3% 1%;
+     text-align: left;
+     width: 95%;
+     text-indent: 1.5rem;
+     line-height: 1.5rem;
+}
+#about ul {
+     margin: 0 auto;
+     list-style-type: square;
+     line-height: 1.5rem;
+}
+#about ul li {
+     font-family: 'Assistant', sans-serif;
+     font-size: 1rem;
+     text-align: left;
+}
+
+/*****CONTACT*****/
+#contact {
+     height: 37rem;
+     clear: both;
+     border: 1px solid white;
+}
+#contact .full-width {
+     text-align: center;
+     margin: 0 auto;
+}
+#contact .one-third-width {
+    width: 30%;
+    height: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 2.5%;
+} 
+#contact h2 {
+    font-family:  mono45-headline, monospace;
+    font-size: 2rem;
+    color: #3399cc;
+    letter-spacing: -0.1rem;
+    padding-top: 5%;
+}
+#contact h5 {
+    font-family: mono45-headline, monospace;
+    padding-top: 2%;
+    padding-bottom: 10%; 
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#contact #follow-me {
+    padding-top: 40%;
+    padding-bottom: 15%;
+}
+#contact p {
+     font-family: 'Assistant', sans-serif;
+     font-size: 1rem;
+     margin: 0 auto;
+     width: 75%
+}
+#contact ul{
+     margin: 0 auto;
+     padding-right: 10%;
+}
+#contact ul li{
+     display: inline-block;
+}
+#contact .mail {
+    text-decoration: none;
+    color: #2b2b2b;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: -0.05rem
+}
+#contact .mail img {
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+    padding: 20% 0% 1% 0%;
+}
+#contact .hidden {
+    overflow: hidden;
+}
+#contact #pink-owl {
+    width: 90%;
+    height: auto;
+    position: relative;
+    right: -10rem;
+    bottom: -7rem;
+}
+#contact .copyright{
+    background:  #3399ccb0;
+    height: 10%;
+    border-top: 0.05rem solid black;
+}
+#contact h4{
+    font-family: 'limelight', sans-serif;
+    padding: 1.5% 0 0 0;
+    margin: 0 auto;
+    color:  #2b2b2b;
+    letter-spacing: -0.05rem;
+    font-size: 1rem;
+}

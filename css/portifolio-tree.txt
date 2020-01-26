@@ -1,0 +1,78 @@
+header
+    div.full-widht
+        div.two-thirds
+            h1 -> Juliana..
+            h2 -> web Dev...
+        div.one-third
+            nav
+               ul
+                 li a -> portifolio
+                 li a -> about
+                 li a -> contact
+	img -> background-eye
+    h2 ->My mind
+
+section#portifolio
+    div.full-width
+        h2 -> PORTIFOLIO
+        div.third-height    **project 01**
+            div.half-width
+                 a img -> url! + /rogue-pickings-thumbnail.png
+            div.half-width
+                 h3 -> Rogue Pickings Website
+                 h5 -> HTML & CSS...
+                 p -> txt
+        div.third-height > project 02
+            div.half-width
+                 a img -> url + /jubille-thumbnail.png
+            div.half-width
+                 h3 -> Jubilee Austen Project
+                 h5 -> HTML5 & CSS Website
+                 p -> txt
+        div.third-height    **project 03**
+            div.half-width
+                 a img -> url! + /ju-telles-advice-thumbnail.png
+            div.half-width
+                 h3 -> Advices for Newbies project
+                 h5 -> HTML 5 & CSS Exercise
+                 p -> txt
+section#ABOUT
+    div.full-width
+        h2 -> ABOUT
+        div.third-width 
+            img -> img/ju-oval-mask-effects.png
+ 	div-third-width-> description of me    
+	    h5 -> As a front end developer and web designer
+            p -> txt
+        div-third-width
+            h5 -> My abilities:
+            p -> txt
+
+footer#CONTACT
+      div.full-width
+          h2 -> CONTACT
+          div.third-width
+              h5 -> Liked my work? Have a question?
+   	      p -> txt
+          div.third-width
+	      h5 -> Follow me
+	      ul
+                li a img -> url + img/images-icons/twitter.jpg
+                li a img -> url + img/images-icons/GitHub.png
+                li a img -> url + img/images-icons/instagram-icon-blue.png
+                li a img -> url + img/images-icons/linkedInp.png
+                li a img -> url + img/images-icons/facebook-blue-icon-vector.png
+              a -> julianatelles.contato@gmail.com
+         div.third-width
+             img -> img/pink-owl-more-quality.png
+      div.full-width
+              h5 -> Copyright 2020 | Juliana Telles
+
+
+
+
+
+
+
+
+        
